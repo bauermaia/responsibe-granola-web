@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+       
+        <!-- FAVICON -->
+         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!-- REMIXICON -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+        <!-- swiper css -->
+         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+         <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+       
+        <title>Granola</title>
+    </head>
+
+    <body>
+        <!-- header -->
+         <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">GRANOLA</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#inicio" class="nav__link active-link">Inicio</a>
+                        </li>
+
+
+                        <li>
+                            <a href="#favorites" class="nav__link">Productos</a>
+                        </li>
+
+                        <li>
+                            <a href="#informacion" class="nav__link">Informacion</a>
+                        </li>
+
+                        
+                        <li>
+                            <a href="#recetas" class="nav__link">Recetas</a>
+                        </li>
+
+                        <li>
+                            <a href="#contacto" class="nav__link">Conctacto</a>
+                        </li>
+                    </ul>
+
+                    <!-- Close button -->
+                     <div class="nav__close" id="nav-close">
+                        <i class="ri-close-large-line"></i>  
+                     </div>
+                     <div class="nav__social">
+                        <a href="https://www.facebook.com" target="_blank" class="nav__social-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="https://instagram.com" target="_blank" class="nav__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="https://twitter.com" target="_blank" class="nav__social-link">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                     </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-2-line"></i>
+                </div>
+            </nav>
+
+         </header>
+
+         <!-- main -->
+          <main class="main">
+
+            <!-- INICIO -->
+             <section class="inicio section" id="inicio">
+                <div class="inicio__container container grid">
+                    <div class="inicio__data">
+                        <h1 class="inicio__title">ENERGIA <br>SIN<br>LIMITES</h1>
+                        <p class="inicio__description">
+                            Disfrútala en el desayuno, como snack o en tus recetas favoritas.
+                            ¡Haz de nuestra granola tu aliada para un estilo de vida saludable y lleno de vitalidad!
+                        </p>
+
+                        <img src="assets/img/avena.png" alt="image" class="inicio__meat">
+
+                        <div class="inicio__buttons">
+                            <a href="#" class="button">¡Come ahora!</a>
+                            <a href="#" class="button button__ghost">Compra ahora</a>
+                        </div>
+                    </div>
+
+                    <div class="inicio__images">
+                        <div class="inicio__circle">
+                            <div class="inicio__subcircle"></div>
+                        </div>
+
+                        <img src="assets/img/almonds.png" alt="image" class="inicio__img">
+                        <img src="assets/img/coco.png" alt="image" class="inicio__coco">
+                        <img src="assets/img/strawberry.png" alt="image" class="inicio__straw">
+                        <img src="assets/img/choco2.png" alt="image" class="inicio__choco">
+                        <img src="assets/img/almond.png" alt="image" class="inicio__almen">
+                    </div>
+                </div>
+
+             </section>
+
+              <!-- Productos -->
+              <section class="favorites section" id="favorites">
+
+                <div class="favorites__container container grid">
+                    <div class="favorites__data">
+                        <h2 class="section__title">DESCUBRE TUS<br>SABORES FAVORITOS</h2>
+                        <p class="favorites__description">Explora sabores deliciosas y saludables, ideales para cualquier ocasión. ¡Llénate de energi y disfruta!
+                        </p>
+                        <img src="assets/img/straw-shadow.png" alt="image" class="favorites__straw">
+                        <img src="assets/img/choco-shadow.png" alt="image" class="favorites__choco">
+                        
+                    </div>
+
+                    <div class="favorites__swiper swiper">
+                        <div class="swiper-wrapper">
+                        
+                            <article class="favorites__article swiper-slide">
+                                <img src="assets/img/choco.png" alt="image" class="favorites__img">
+                                <img src="assets/img/choco2.png" alt="image" class="favorites__chocolate">
+                            </article>
+                            <article class="favorites__article swiper-slide">
+                                <img src="assets/img/coconut.png" alt="image" class="favorites__img">
+                                <img src="assets/img/coco.png" alt="image" class="favorites__coconut">
+                            </article>
+                            <article class="favorites__article swiper-slide">
+                                <img src="assets/img/almonds.png" alt="image" class="favorites__img">
+                                <img src="assets/img/almond.png" alt="image" class="favorites__almond">
+                            </article>
+
+                            <article class="favorites__article swiper-slide">
+                                <img src="assets/img/straw.png" alt="image" class="favorites__img">
+                                <img src="assets/img/strawberry.png" alt="image" class="favorites__strawberry">
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+             </section>
+             
+              <!-- INFORMACION -->
+              <section class="informacion section" id="informacion">
+                <h2 class="section__title">DISFRUTA Y<BR>CUIDA DE TU SALUD</h2>
+                <div class="informacion__container container grid">
+                    <ul class="informacion__list">
+                        <li class="informacion__item">
+                            <i class="ri-plant-line"></i>
+                            <p>
+                                Esta granola es 100% orgánica, todos los ingredientes 
+                                provienen de cultivos sin pesticidas ni productos químicos.
+                            </p>
+                        </li>
+
+                        <li class="informacion__item">
+                            <i class="ri-leaf-line"></i>
+
+                            <p>
+                                 Es vegana, siendo una excelente opción 
+                                 para quienes siguen dietas plant-based.                                
+                            </p>
+                        </li>
+
+                        <li class="informacion__item">
+                            <i class="ri-bread-line"></i>
+                            <p>
+                                Con un alto contenido de fibra, favorece la digestión 
+                                y contribuye a mantener un sistema digestivo saludable.                                
+                            </p>
+                        </li>
+
+                        <li class="informacion__item">
+                            <i class="ri-sun-line"></i>
+                            <p>
+                                Es baja en azúcar añadido, controla la ingesta de azúcares 
+                                y mantener niveles estables de energía a lo largo del día.
+                                
+                            </p>
+                        </li>
+
+                        <li class="informacion__item">
+                            <i class="ri-mental-health-line"></i>
+                            <p>
+                                Aporta antioxidantes, proteínas y grasas saludables 
+                                para apoyar el bienestar general.                                
+                            </p>
+                        </li>
+
+                        <li class="informacion__item">
+                            <i class="ri-heart-line"></i>
+                            <p>
+                                Con bajo contenido en grasas saturadas y alta cantidad de grasas saludables que favorecen la salud cardiovascular.                                
+                            </p>
+                        </li>
+
+                    </ul>
+                    <img src="assets/img/bowl.png" alt="images" class="informacion__img">
+                </div>
+
+              </section>
+
+                <!-- BANNER -->
+             <section class="banner">
+                <div class="banner__container">
+                    <ul class="banner__list">
+                        <li class="banner__item">
+                            <i class="ri-riding-line"></i>
+                            <span>FULL OF ENERGY</span>
+                        </li>
+
+                        <li class="banner__item">
+                            <i class="ri-empathize-line"></i>
+                            <span>GOOD FOR MIND AND BODY</span>
+                        </li>
+                        <!-- 40.30 -->
+                    </ul>
+                </div>
+
+             </section>
+
+              <!-- RECETAS -->
+              <section class="recetas section" id="recetas">
+                <h2 class="section__title">MEJORES COMBINACIONES CON <BR> TU GRANOLA</h2>
+                    <div class="recetas__container container">
+                        <div class="recetas__content grid">
+                            <article class="recetas__card">
+                                <img src="assets/img/kiwi-bowl.png" alt="image" class="recetas__img">
+
+                                <span class="recetas__subtitle">De Plátano, arándanos y coco</span>
+                                <h2 class="recetas__title">Smoothie Bowl</h2>
+
+                                <span class="recetas__descripcion">Nutritivo y refrescante</span>
+                                <br>
+                                <button class="recetas__button">
+                                    <i class="ri-arrow-right-line"></i>
+                                </button>
+                            </article>
+
+                            <article class="recetas__card">
+                                <img src="assets/img/galletas.png" alt="image" class="recetas__img">
+
+                                <span class="recetas__subtitle">De chocolate y granola</span>
+                                <h2 class="recetas__title">Galletas</h2>
+
+                                <span class="recetas__descripcion">¡Deliciosas!</span>
+                                <br>
+                                <button class="recetas__button">
+
+                                    <i class="ri-arrow-right-line"></i>
+                                </button>
+                            </article>
+
+                            <article class="recetas__card">
+                                <img src="assets/img/barras-granola.png" alt="image" class="recetas__img">
+
+                                <span class="recetas__subtitle">Con semillas de calabaza y frutos rojos</span>
+                                <h2 class="recetas__title">Barras de granola</h2>
+
+                                <span class="recetas__descripcion">Prácticas y energizantes</span>
+                                <br>
+                                <button class="recetas__button">
+                                    <i class="ri-arrow-right-line"></i>
+                                </button>
+                            </article>
+
+                            <article class="recetas__card">
+                                <img src="assets/img/porridge.png" alt="image" class="recetas__img">
+
+                                <span class="recetas__subtitle">De almendras y fresas</span>
+                                <h2 class="recetas__title">Porridge</h2>
+
+                                <span class="recetas__descripcion">Clásico y sabroso</span>
+                                <br>
+                                <button class="recetas__button">
+                                    <i class="ri-arrow-right-line"></i>
+                                </button>
+                            </article>
+
+                        </div>
+                        <img src="assets/img/coco-shadow.png" alt="image" class="recetas__coconut">
+                        <img src="assets/img/straw-shadow.png" alt="image" class="recetas__strawberry">
+                        <img src="assets/img/almond-shados.png" alt="image" class="recetas__almond">
+                        <img src="assets/img/choco-shadow.png" alt="image" class="recetas__chocolate">
+                        
+                    </div>
+
+              </section>
+
+
+               <!-- CONTACTO -->
+             <section class="contacto section" id="contacto">
+                <div class="contact__container container">
+                    <h2 class="section__title">CONTACTA<BR> CON NOSOTROS</h2>
+                        <div class="contact__content grid">
+                            <div class="contact__data grid">
+                                <div>
+                                    <h3 class="contact__title">¡Escríbenos!</h3>
+                                    <div class="contact__social">
+                                        <a href="https://api.whatsapp.com/send?phone=34602400867&text=Hello, más información!" target="_blank">
+                                            <i class="ri-whatsapp-fill"></i>                                   
+                                        </a>
+
+                                        <a href="https://m.me/bedimcode" target="_blank">
+                                            <i class="ri-messenger-fill"></i>
+                                        </a>
+
+                                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bauermaia1@gmail.com&su=Consulta&body=Hola, me gustaría obtener más información." target="_blank">
+                                            <i class="ri-mail-fill"></i>                                       
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h3 class="contact__title">¡Llámanos!</h3>
+                                        <adress class="contact__info">
+                                        +34-602 400 867
+                                        </adress>
+                                    
+                                </div>
+
+                                <div>
+                                    <h3 class="contact__title">Encuéntranos aquí: </h3>
+                                        <adress class="contact__info">
+                                        Mitre xxxx, San Carlos de Bariloche,<br> Argentina
+                                        </adress>
+                                    
+                                </div>
+
+                            </div>
+
+                            <img src="assets/img/telefono.png" alt="" class="contact__img">
+                        </div>
+
+                        <img src="assets/img/avena.png" alt="image" class="contact__avena">
+                        <img src="assets/img/choco-shadow.png" alt="image" class="contact__choco">
+                        <img src="assets/img/straw-shadow.png" alt="image" class="contact__straw">
+                </div>
+
+             </section>
+
+
+          </main>
+
+          <!-- footer -->
+           <footer class="footer">
+            <div class="footer__container container grid">
+                <a href="#" class="footer__logo">GRANOLA</a>
+
+                <div class="footer__content grid">
+                    <a href="#" class="footer__link">Términos y condiciones</a>
+                    <a href="#" class="footer__link">Política de privacidad</a>
+
+                    <span class="footer__copy">©Todos los derechos reservados</span>
+                </div>
+            </div>
+
+           </footer>
+
+           <!-- scroll up -->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="ri-arrow-up-line"></i>
+            </a>
+
+            <!-- scroll reveal -->
+             <script src="assets/js/scrollreveal.min.js"></script>
+
+
+           <!-- SWIPER JS -->
+            <script src="assets/js/swiper-bundle.min.js"></script>
+           <!-- main js -->
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
